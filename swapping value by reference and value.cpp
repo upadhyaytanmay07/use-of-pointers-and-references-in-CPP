@@ -22,7 +22,7 @@ int main()
     cout <<"The value of a is " << a<<" "<<" and the value of b is "<< b << endl; 
 
     return 0;
-
+}
 /* output for this code
 
 The value of a is 50  and the value of b is 20
