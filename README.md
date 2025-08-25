@@ -52,3 +52,27 @@ Example: Applying a 20% increment when an employee meets given conditions (years
         *salary = *salary + (0.2 * (*salary));
     }
 # Algorithms
+# 1. Calling by reference and value 
+Steps
+
+    Start
+    
+    Initialize two integer variables a and b with values (e.g., a = 20, b = 50)
+    
+    Call the swap function and pass the addresses of a and b
+    
+    Inside the swap function:
+    
+    Store the value at address a in a temporary variable temp
+    
+    Assign the value at address b to the location pointed by a
+    
+    Assign the value in temp to the location pointed by b
+    
+    Return to main function
+    
+    Display the swapped values of a and b
+    
+    End
+
+    
