@@ -74,5 +74,75 @@ Steps
     Display the swapped values of a and b
     
     End
-
+                
     
+# 2. Calling value by address
+Steps
+
+    Start
+    
+    Declare two integer variables a and b
+    
+    Initialize a = 20 and b = 50
+    
+    Call the swap function with a and b as arguments
+    
+    Inside the swap function:
+    
+    Store the value of a in a temporary variable temp
+    
+    Assign the value of b to a
+    
+    Assign the value of temp to b
+    
+    Return to the main function
+    
+    Display the swapped values of a and b
+    
+    End
+
+# 3. Employee salary increment 
+Steps
+
+    1. Start
+    
+    2. Input Employee Details
+    
+    a. Prompt and read original_salary
+    
+    b. Prompt and read employee_duration (in years)
+    
+    c. Prompt and read profit (amount made by employee)
+    
+    d. Prompt and read research_project (1 for Yes, 0 for No)
+    
+    e. Prompt and read research_project_in_pipeline (1 for Yes, 0 for No)
+    
+    3. Initialize Condition Counter
+    
+    a. Set condition_check = 0
+    
+    4. Evaluate Conditions
+    
+    a. If employee_duration >= 1, increment condition_check
+    
+    b. If profit >= 100000, increment condition_check
+    
+    c. If research_project == 1, increment condition_check
+    
+    d. If research_project_in_pipeline == 1, increment condition_check
+    
+    5. Decision Making
+    
+    a. If condition_check >= 3:
+    
+    b. Display message: "The new salary increment will be 20% of the original salary"
+    
+    c. Call function(&original_salary) to calculate and display 20% of salary
+    
+    d. Else:
+    
+    e. Display message: "As conditions are not satisfied, there is no change in salary"
+    
+    6. End
+        
